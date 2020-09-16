@@ -11,6 +11,5 @@
 			<Input value="{/empStr/curr}"></Input>
 		</f:content>
 	</f:SimpleForm>
-	>
 	<Button text="Flip Model" press="pacman"></Button>
 </robert:View>
