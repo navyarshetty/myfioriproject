@@ -3,7 +3,7 @@
 		<f:content>
 			<Label text="Emp Id"></Label>
 			<Input value="{/empStr/empId}"></Input>
-			<Label text="Name"></Label>
+			<Label text="Naam"></Label>
 			<Input value="{/empStr/empName}"></Input>
 			<Label text="Salary"></Label>
 			<Input value="{/empStr/salary}"></Input>
