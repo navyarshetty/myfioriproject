@@ -1,0 +1,15 @@
+<robert:View xmlns:robert="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns="sap.m" controllerName="tortoise.controller.Main">
+	<f:SimpleForm id="zkas" editable="true" title="Employee Data">
+		<f:content>
+			<Label text="Emp Id"></Label>
+			<Input value="{/empStr/empId}"></Input>
+			<Label text="Name"></Label>
+			<Input value="{/empStr/empName}"></Input>
+			<Label text="Salary"></Label>
+			<Input value="{/empStr/salary}"></Input>
+			<Label text="Currency"></Label>
+			<Input value="{/empStr/curr}"></Input>
+		</f:content>
+	</f:SimpleForm>
+	<Button text="Flip Model" press="pacman"></Button>
+</robert:View>
